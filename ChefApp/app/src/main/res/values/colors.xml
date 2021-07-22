@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="selected_command_bar">#686868</color>
+    <color name="colorBar">#374645</color>
+    <color name="time_number_bar">#31FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="darcker">#65000000</color>
+
+    <!--    detail layout -->
+    <color name="detail_gray">#B3B3B3</color>
+
+    <color name="gold">#FF9800</color>
+    <color name="green_text">#4CAF50</color>
+    <color name="donneCommand">#D82BFF</color>
+    <color name="notdonecommand">#008659</color>
+
+
+    <!--  user command color  -->
+    <color name="donne">#FF3434</color>
+
+    <color name="rose1">#FFA37B</color>
+    <color name="gblue">#4285F4</color>
+    <color name="ggreen">#34A853</color>
+    <color name="gyellow">#FBBC05</color>
+    <color name="gred">#FF978B</color>
+    <color name="c1">#5A4EFF</color>
+    <color name="c2">#B3FFB3</color>
+    <color name="c3">#FF61CF</color>
+    <color name="c4">#7C9464</color>
+    <color name="c5">#9E58FF</color>
+
+    <array name="background_colors">
+        <item>@color/gblue</item>
+        <item>@color/ggreen</item>
+        <item>@color/gyellow</item>
+        <item>@color/gred</item>
+        <item>@color/c1</item>
+        <item>@color/c2</item>
+        <item>@color/c3</item>
+        <item>@color/c4</item>
+        <item>@color/c5</item>
+    </array>
+
+    <!--  property command  -->
+    <color name="gray1">#8DFFF4</color>
+    <color name="gray2">#8EC8FF</color>
+
+    <array name="properties_color">
+        <item>@color/gray1</item>
+        <item>@color/gray2</item>
+    </array>
+
+</resources>

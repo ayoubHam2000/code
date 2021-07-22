@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="5dp">
+
+    <ImageView
+        android:id="@+id/theCommandBackground"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/user_command_box"
+        app:layout_constraintEnd_toStartOf="@+id/selectedCommand"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/theCommandBackground"
+        app:layout_constraintStart_toStartOf="@+id/theCommandBackground"
+        app:layout_constraintTop_toTopOf="@+id/theCommandBackground">
+
+        <ImageView
+            android:id="@+id/tableImage"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/table" />
+
+        <TextView
+            android:id="@+id/tableNumber"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="147"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/theCommandBackground"
+        app:layout_constraintStart_toStartOf="@+id/theCommandBackground"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/listImage"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/list" />
+
+        <TextView
+            android:id="@+id/commandNumber"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="99"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/theCommandBackground"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2">
+
+        <ImageView
+            android:id="@+id/timeImage"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:tint="@color/white"
+            app:srcCompat="@drawable/time" />
+
+        <TextView
+            android:id="@+id/commandTime"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:autoSizeMaxTextSize="15dp"
+            android:autoSizeMinTextSize="2dp"
+            android:autoSizeStepGranularity="2dp"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="il y'a \n23h : 21min"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/subDetailCommand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/theCommandBackground"
+        app:layout_constraintStart_toStartOf="@+id/theCommandBackground" />
+
+    <TextView
+        android:id="@+id/numberOfCommand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif"
+        android:text="#1"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@+id/theCommandBackground"
+        app:layout_constraintTop_toTopOf="@+id/theCommandBackground" />
+
+    <ImageView
+        android:id="@+id/selectedCommand"
+        android:layout_width="5dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/theCommandBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/theCommandBackground"
+        app:srcCompat="@color/selected_command_bar" />
+
+    <TextView
+        android:id="@+id/isCommandDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="DONE"
+        android:textColor="@color/donne"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/theCommandBackground"
+        app:layout_constraintEnd_toStartOf="@+id/selectedCommand"
+        app:layout_constraintStart_toStartOf="@+id/theCommandBackground"
+        app:layout_constraintTop_toTopOf="@+id/theCommandBackground" />
+</androidx.constraintlayout.widget.ConstraintLayout>

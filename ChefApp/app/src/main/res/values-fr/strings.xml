@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChefApp</string>
+
+
+    <!--//layout -->
+    <string name="french">Française</string>
+    <string name="english">Anglais</string>
+    <string name="total">TOTAL</string>
+    <string name="price">Prix</string>
+    <string name="with">Avec</string>
+
+    <string name="donne">DONNE</string>
+    <string name="delete">SUPPRIMER</string>
+
+    <string name="error">quelque chose s\'est mal passé</string>
+
+</resources>
