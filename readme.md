@@ -2,31 +2,31 @@ Android
 ==========
 
 #### EnglishApp
-```
-1.[English By Text](https://github.com/ayoubHam2000/EnglishByText)
-```
-Staff
+1. [English By Text](https://github.com/ayoubHam2000/EnglishByText)
+
+***
+General
 ==========
 
 #### General
-```
-1.[Lab Management](https://github.com/ayoubHam2000/Lab-management) (private)
-2.[University code](https://github.com/ayoubHam2000/fs_licence)
-3.[nmatch](https://github.com/ayoubHam2000/nmatch)
-```
-Staff
+1. [Lab Management](https://github.com/ayoubHam2000/Lab-management) (private)
+2. [University code](https://github.com/ayoubHam2000/fs_licence)
+3. [nmatch](https://github.com/ayoubHam2000/nmatch)
+
+***
+Learning
 ==========
 
 #### Python
-```
-1.[djangoTuto](https://github.com/ayoubHam2000/djangoTuto)
-2.[Numpy](https://github.com/ayoubHam2000/Numpy)
-```
+1. [djangoTuto](https://github.com/ayoubHam2000/djangoTuto)
+2. [Numpy](https://github.com/ayoubHam2000/Numpy)
 
 ### SDL
-```
-1.[moveSquare](https://github.com/ayoubHam2000/moveSquare)
-```
+1. [moveSquare](https://github.com/ayoubHam2000/moveSquare)
+
+***
 Unity
 ==========
 
+
+***
