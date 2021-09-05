@@ -13,3 +13,6 @@ General
 ### NodeJs
 1. [restaurant_server_nodeJs](https://github.com/ayoubHam2000/restaurant_server_nodeJs)
 2. [upload_server_nodeJs](https://github.com/ayoubHam2000/upload_server_nodeJs)
+
+### Python
+1. [vocabularyFrequency](https://github.com/ayoubHam2000/py_vocabularyFrequency)
