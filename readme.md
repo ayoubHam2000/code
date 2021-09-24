@@ -25,10 +25,14 @@ General
 5. [compiler_gcce](https://github.com/ayoubHam2000/compiler_gcce)
 6. [equationsSolver](https://github.com/ayoubHam2000/equationsSolver)
 7. [youtubeDownloader](https://github.com/ayoubHam2000/youtubeDownloader)
+8. [my_media](https://github.com/ayoubHam2000/My_Media)
 
 ### NodeJs
 1. [restaurant_server_nodeJs](https://github.com/ayoubHam2000/restaurant_server_nodeJs)
 2. [upload_server_nodeJs](https://github.com/ayoubHam2000/upload_server_nodeJs)
+
+### Python
+1. [vocabularyFrequency](https://github.com/ayoubHam2000/py_vocabularyFrequency)
 
 ***
 Learning
