@@ -13,6 +13,7 @@ Android
 9. [UserApp](https://github.com/ayoubHam2000/UserApp)
 10. [KioskApp](https://github.com/ayoubHam2000/KioskApp)
 11. [Englishflashcards](https://github.com/ayoubHam2000/Englishflashcards)
+12. [Movies App](https://github.com/ayoubHam2000/movies_app_android.git)
 ***
 General
 ==========
@@ -59,6 +60,10 @@ Unity
 1337
 ==========
 
+#### Piscine
+1. [Piscine](https://github.com/ayoubHam2000/piscine_13.git)
+
 #### 1337 projects
-1. [Libft](https://github.com/ayoubHam2000/Libft)
+1. [Libft](https://github.com/ayoubHam2000/libft_13_p.git)
+2. [ft_printf](https://github.com/ayoubHam2000/ftt_printf_13_p)
 ***
